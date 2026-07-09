@@ -55,3 +55,9 @@ nav {
     justify-content: center;
     gap: 20px
 }
+.characters-box {
+display: flex;
+justify-content: center;
+gap: 18px;
+flex-wrap: wrap;
+}
