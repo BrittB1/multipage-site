@@ -56,8 +56,21 @@ nav {
     gap: 20px
 }
 .characters-box {
-display: flex;
-justify-content: center;
-gap: 18px;
-flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+.profile-card {
+    width: 200px;
+    border-radius: 12px;
+    padding: 14px;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 100%;
+    height: auto;
+  object-fit: cover;
 }
